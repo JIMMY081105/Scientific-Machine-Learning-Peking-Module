@@ -7,6 +7,7 @@ This index groups the repository material by study activity so the lecture PDFs,
 - `Chapter01/` covers motivation, Julia basics, plotting, and solving linear and nonlinear equations.
 - `Chapter02/` covers optimization foundations, gradient-based methods, multivariate examples, and second-order methods.
 - `Chapter03/` covers linear least-squares methods using gradient descent and normal equations.
+- `Chapter04/` covers differentiation in Julia and forward-mode automatic differentiation.
 
 Each chapter separates its material into `Jupyter Notebooks/`, `PDFs/`, and `Julia/`. The `Julia/` directories include complete notebook-derived scripts as well as smaller standalone examples.
 
