@@ -18,6 +18,7 @@ Core topics include:
 - Linear systems, nonlinear equations, Newton-Raphson iterations, and contour analysis.
 - Optimization workflows, including gradient-based and second-order methods.
 - Linear least-squares modeling with gradient descent and normal equations.
+- Differentiation in Julia and forward-mode automatic differentiation.
 - Coursework artifacts, homework notebooks, CSV data, and lecture PDFs.
 
 ## Repository Structure
@@ -27,6 +28,7 @@ Core topics include:
 | [`Chapter01/`](Chapter01) | Introduction, Julia basics, plotting, and equation-solving materials organized into `Jupyter Notebooks`, `PDFs`, and `Julia`. |
 | [`Chapter02/`](Chapter02) | Optimization materials organized into `Jupyter Notebooks`, `PDFs`, and `Julia`, including gradient-based and second-order methods. |
 | [`Chapter03/`](Chapter03) | Linear least-squares materials organized into `Jupyter Notebooks`, `PDFs`, and `Julia`. |
+| [`Chapter04/`](Chapter04) | Differentiation and forward-mode automatic differentiation materials organized into `Jupyter Notebooks`, `PDFs`, and `Julia`. |
 | [`class 2/`](class%202) | Julia class demos for linear systems, nonlinear solving, plotting, homework, and generated PNG outputs. |
 | [`class 3/`](class%203) | Optimization notebook and Julia demos for gradient descent and momentum-style methods. |
 | [`Assignment 1/`](Assignment%201) | Assignment PDF and `Q3Data.csv`. |
