@@ -11,7 +11,7 @@ This index groups the repository material by study activity so the lecture PDFs,
 - `Chapter05/` covers boundary value problems, nonlinear BVPs, and parameter estimation for BVPs.
 - `Chapter06/` covers neural networks and their implementation in Julia.
 
-Each chapter separates its material into `Jupyter Notebooks/`, `PDFs/`, `Julia lecture/` (complete notebook-derived scripts), and `Julia/` (smaller standalone examples). Chapters that use datasets keep the `DataXX.csv` files at the chapter root, referenced from scripts and notebooks via relative paths.
+Each chapter separates its material into `Jupyter Notebooks/`, `PDFs/`, `Julia lecture/`, and `Julia/` (smaller standalone examples). Within `Julia lecture/`, each notebook-derived lesson is broken into a per-lesson subfolder of small scripts split by goal/strategy (each runs on its own, with a `00_README.md` listing them); single-goal lessons remain a single script. Chapters that use datasets keep the `DataXX.csv` files at the chapter root, referenced from scripts and notebooks via relative paths.
 
 ## Class Work
 
