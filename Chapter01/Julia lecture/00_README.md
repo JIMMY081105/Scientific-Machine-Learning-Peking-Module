@@ -16,7 +16,7 @@ This chapter sets up the whole course. The recurring engineering question is: ho
 4. Generalise to A(r, V) when the volume V is also free, and plot one curve per V to see how the shape shifts.
 5. Conclude: reading a minimum off a graph works but is crude; later notebooks compute it exactly.
 
-### 1.2 Julia Programming Basics  →  `01p02JuliaProgrammingBasics.jl`
+### 1.2 Julia Programming Basics  →  `01p02JuliaProgrammingBasics/` (split by goal — see its README)
 
 **Problem.** Learn the minimum Julia needed to read every program in this course: variable types, tuples and structs, vectors/matrices/arrays, operators, functions, variable scope, and loops.
 
@@ -29,7 +29,7 @@ This chapter sets up the whole course. The recurring engineering question is: ho
 5. Functions: one-line and full 'function' definitions, broadcasting a function with '.', and anonymous (x,p)->... functions used later by optimisation libraries.
 6. Scope and loops: how variables inside functions/loops stay local, and how 'for' loops repeat calculations.
 
-### 1.3 Plotting Functions in Julia  →  `01p03PlottingFunctionsInJulia.jl`
+### 1.3 Plotting Functions in Julia  →  `01p03PlottingFunctionsInJulia/` (split by goal — see its README)
 
 **Problem.** Learn to plot the standard test functions that later optimisation algorithms will be run on, so you can see minima and maxima before trying to compute them.
 
@@ -40,7 +40,7 @@ This chapter sets up the whole course. The recurring engineering question is: ho
 3. Build a 2-D grid with an array comprehension and draw filled contour plots of the Himmelblau function (4 minima, 1 maximum).
 4. Do the same for the Rosenbrock function, whose minimum sits in a long narrow valley that is hard for algorithms to find.
 
-### 1.4 Solving Linear and Nonlinear Equations  →  `01p04SolvingLinearAndNonlinearEquations.jl`
+### 1.4 Solving Linear and Nonlinear Equations  →  `01p04SolvingLinearAndNonlinearEquations/` (split by goal — see its README)
 
 **Problem.** Revise how to solve (a) linear systems A x = C, and (b) single and coupled nonlinear equations f(x) = 0. This is the root-finding machinery behind optimisation, since a minimum is a root of the derivative.
 
