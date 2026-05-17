@@ -4,7 +4,7 @@ This chapter is all about finding the minimum of a function, first by calling Ju
 
 ## Notebooks in this chapter
 
-### 2.1 Basic Optimization in Julia (first-order library methods)  →  `02p01BasicOptimizationInJulia.jl`
+### 2.1 Basic Optimization in Julia (first-order library methods)  →  `02p01BasicOptimizationInJulia/` (split by goal — see its README)
 
 **Problem.** Find the minimum of functions using Julia's Optimization.jl library with the four common first-order (gradient-only) optimisers: Gradient Descent, Momentum, Nesterov Momentum, and Adam. Compare how each one converges.
 
@@ -17,7 +17,7 @@ This chapter is all about finding the minimum of a function, first by calling Ju
 5. Run Example 2.1.1 (1-D quadratic) with Descent, Momentum, Nesterov, and Adam in turn, overlaying each convergence path to compare speed and overshoot.
 6. Repeat for Example 2.1.2 (2-D Shewchuk quadratic) and Example 2.1.3 (Rosenbrock), reading the final answer from sol.u and status from sol.retcode.
 
-### 2.2 Basic Optimization in Julia Continued (second-order library methods)  →  `02p02BasicOptimizationInJuliaContinued.jl`
+### 2.2 Basic Optimization in Julia Continued (second-order library methods)  →  `02p02BasicOptimizationInJuliaContinued/` (split by goal — see its README)
 
 **Problem.** Find the minimum using second-order library methods that use curvature (Hessian) information: Newton, BFGS, and LBFGS. These usually converge in very few iterations but need second-derivative information.
 
@@ -28,7 +28,7 @@ This chapter is all about finding the minimum of a function, first by calling Ju
 3. Example 2.2.1 on (x^3-x)^2: Newton has no tunable learning rate and converges in ~3 iterations; note that Newton and BFGS from the same start can land on different minima.
 4. Example 2.2.2 (Shewchuk quadratic) and 2.2.3 (Rosenbrock): overlay Newton/BFGS/LBFGS paths and print sol.u, sol.objective, sol.retcode.
 
-### 2.3 Gradient Based Methods (coded from scratch, 1-D)  →  `02p03GradientBasedMethods.jl`
+### 2.3 Gradient Based Methods (coded from scratch, 1-D)  →  `02p03GradientBasedMethods/` (split by goal — see its README)
 
 **Problem.** Understand the first-order optimisers by implementing their update equations yourself (no library) for 1-D functions, using an explicitly written gradient.
 
@@ -40,7 +40,7 @@ This chapter is all about finding the minimum of a function, first by calling Ju
 4. Nesterov Momentum: same as Momentum but evaluate the gradient at the look-ahead point x + beta*v, which reduces overshoot.
 5. Overlay the three convergence curves; then repeat on g(x) = -exp(-x^2) where the tiny far-field gradient makes plain gradient descent very slow.
 
-### 2.4 Multivariate Examples (coded from scratch, 2-D)  →  `02p04MultivariateExamples.jl`
+### 2.4 Multivariate Examples (coded from scratch, 2-D)  →  `02p04MultivariateExamples/` (split by goal — see its README)
 
 **Problem.** Extend the hand-coded first-order methods to functions of two variables, where the gradient is a 2-vector, and visualise why 'follow the negative gradient' works.
 
@@ -51,7 +51,7 @@ This chapter is all about finding the minimum of a function, first by calling Ju
 3. Example 2.4.1 (bowl x1^2+x2^2): run gradient descent from a start point and plot the path converging to (0,0).
 4. Example 2.4.2 (Shewchuk quadratic): run Gradient Descent, then Momentum, then Nesterov Momentum (all in vector form) and compare their paths on the contour plot.
 
-### 2.5 Second Order Methods (Newton, coded from scratch)  →  `02p05SecondOrderMethods.jl`
+### 2.5 Second Order Methods (Newton, coded from scratch)  →  `02p05SecondOrderMethods/` (split by goal — see its README)
 
 **Problem.** Build the Newton method by hand using the second derivative (Hessian), see why it converges so fast, and understand its key danger: it seeks any point where the gradient is zero, so it can converge to a maximum.
 
