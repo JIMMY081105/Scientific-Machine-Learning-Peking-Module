@@ -4,7 +4,7 @@ Every optimisation and fitting method so far needed derivatives. This chapter is
 
 ## Notebooks in this chapter
 
-### 4.1 Introduction to Differentiation  →  `04p01DifferentiationInJulia.jl`
+### 4.1 Introduction to Differentiation  →  `04p01DifferentiationInJulia/` (split by goal — see its README)
 
 **Problem.** Understand the different ways to compute derivatives (manual, symbolic, numerical, automatic) and learn to use Julia's ForwardDiff and Zygote packages to get exact derivatives, gradients, and Jacobians without differentiating by hand.
 
@@ -17,7 +17,7 @@ Every optimisation and fitting method so far needed derivatives. This chapter is
 5. Functions with parameters: note ForwardDiff needs a single (vector) argument while Zygote can differentiate w.r.t. several; fit f_model = a1(1 - exp(a2*x)) to data with Zygote gradients.
 6. Vector-valued functions: compute Jacobians with ForwardDiff.jacobian / Zygote.jacobian, and see why Zygote rejects in-place array mutation.
 
-### 4.2 Implementation of Automatic Differentiation (Forward Mode)  →  `04p02AutoDiffImplementationForwardMode.jl`
+### 4.2 Implementation of Automatic Differentiation (Forward Mode)  →  `04p02AutoDiffImplementationForwardMode/` (split by goal — see its README)
 
 **Problem.** Demystify automatic differentiation by building forward-mode AD yourself. The idea: break a function into elementary operations and carry each value together with its derivative (a 'Dual number'), applying the chain rule at every step.
 
@@ -30,7 +30,7 @@ Every optimisation and fitting method so far needed derivatives. This chapter is
 5. Plot the Dual-number derivative against the analytic one to confirm they match.
 6. Multivariate case: to get a partial derivative, seed the chosen variable with dot = 1 and the others with dot = 0; note this needs one pass per input (the limitation reverse mode fixes).
 
-### 4.3 Application of Forward Mode Automatic Differentiation  →  `04p03ApplicationOfForwardMode.jl`
+### 4.3 Application of Forward Mode Automatic Differentiation  →  `04p03ApplicationOfForwardMode/` (split by goal — see its README)
 
 **Problem.** Use the hand-built Dual-number AD from the previous notebook to solve real problems, so you trust it does the same job as the libraries.
 
@@ -41,7 +41,7 @@ Every optimisation and fitting method so far needed derivatives. This chapter is
 3. Nonlinear system: assemble the Jacobian of a vector function from Dual evaluations (seeding one variable at a time) and iterate Newton-Raphson to the solution.
 4. Regression: fit a constant model a0 to noisy data by gradient descent, taking dS/da0 from the derivative field of a Dual evaluation of the loss.
 
-### 4.4 Implicit Problems (Parameter Estimation): Linear Equations  →  `04p04ParameterEstimationLinearProblems.jl`
+### 4.4 Implicit Problems (Parameter Estimation): Linear Equations  →  `04p04ParameterEstimationLinearProblems/` (split by goal — see its README)
 
 **Problem.** Solve an inverse problem where the quantity of interest is defined implicitly (only by solving a linear system): find the input voltage V1 that makes the circuit current i5 equal zero. This needs derivatives taken THROUGH a linear solve.
 
