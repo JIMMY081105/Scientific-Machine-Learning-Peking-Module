@@ -4,7 +4,7 @@ This chapter connects optimisation to machine learning: fitting a model to noisy
 
 ## Notebooks in this chapter
 
-### 3.1 Linear Regression with Gradient Descent  →  `03p01LinearLeastSquaresGradientDescent.jl`
+### 3.1 Linear Regression with Gradient Descent  →  `03p01LinearLeastSquaresGradientDescent/` (split by goal — see its README)
 
 **Problem.** Given noisy (x, y) data, find the model coefficients that best fit it by minimising the sum-of-squared-errors loss S with gradient descent. Done twice: a constant model f = a0, then a straight-line model f = a0 + a1*x.
 
