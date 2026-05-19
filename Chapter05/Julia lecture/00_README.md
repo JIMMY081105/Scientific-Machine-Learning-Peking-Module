@@ -4,7 +4,7 @@ This chapter applies everything so far to differential equations, where the unkn
 
 ## Notebooks in this chapter
 
-### 5.1 Introduction to Boundary Value Problems  →  `05p01IntroBoundaryValueProblem.jl`
+### 5.1 Introduction to Boundary Value Problems  →  `05p01IntroBoundaryValueProblem/` (split by goal — see its README)
 
 **Problem.** Find the temperature distribution T(x) along a heated plate governed by k T'' = -q(x) on [0,1] with T(0)=5 and T'(1)=0. The unknown is a function, obtained by solving the ODE numerically.
 
@@ -16,7 +16,7 @@ This chapter applies everything so far to differential equations, where the unkn
 4. Solve with LinearSolve; compare the tridiagonal solver against a general sparse solver (tridiagonal is faster) via @time.
 5. Plot T(x); then redo it for non-uniform heating q(x) = 1 + 2x by only changing C, and overlay both temperature profiles.
 
-### 5.2 Boundary Value Problem (Another Example)  →  `05p02BoundaryValueProblem01.jl`
+### 5.2 Boundary Value Problem (Another Example)  →  `05p02BoundaryValueProblem01/` (split by goal — see its README)
 
 **Problem.** Solve a fuller linear BVP that has both first- and second-derivative terms: y'' + (2/x) y' - (2/x^2) y = 0 on [1,2] with y(1)=5, y(2)=3, and check against the known exact solution y = x + 4/x^2.
 
@@ -40,7 +40,7 @@ This chapter applies everything so far to differential equations, where the unkn
 4. Set up a NonlinearProblem with an initial guess and solve it with NonlinearSolve (which internally does Newton-Raphson using an automatically-computed Jacobian).
 5. Plot the resulting temperature profile T(r).
 
-### 5.4 Introduction to Inverse Problems for BVPs  →  `05p04ParameterEstimationBVP01.jl`
+### 5.4 Introduction to Inverse Problems for BVPs  →  `05p04ParameterEstimationBVP01/` (split by goal — see its README)
 
 **Problem.** The forward BVP k T'' = -1 is known, but the material constant k is unknown. Given a measurement T(1)=3, find the k that makes the finite-difference solution reproduce it - an inverse problem.
 
