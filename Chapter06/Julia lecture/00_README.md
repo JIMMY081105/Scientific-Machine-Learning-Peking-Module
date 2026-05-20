@@ -4,7 +4,7 @@ This final chapter introduces neural networks as flexible, tunable function appr
 
 ## Notebooks in this chapter
 
-### 6.1 Introduction to Neural Networks  →  `06p01IntroductionToNeuralNetwork.jl`
+### 6.1 Introduction to Neural Networks  →  `06p01IntroductionToNeuralNetwork/` (split by goal — see its README)
 
 **Problem.** Understand what a neural network is (a parameterised function that can approximate any function) and learn to train one: fit the weights and biases so the network matches data, using a loss function and gradient descent with automatically-computed gradients.
 
@@ -16,7 +16,7 @@ This final chapter introduces neural networks as flexible, tunable function appr
 4. Train it: define Loss(W, b) = sum of squared errors to a target g(x), get dLoss/dW and dLoss/db from Zygote.gradient, and run hand-coded gradient descent until the network fits the data.
 5. Go wider and higher-dimensional: hidden layers with several nodes (more parameters), and a network with two inputs visualised as a contour plot.
 
-### 6.2 Neural Network with Julia (Part 1)  →  `06p02NeuralNetworkWithJuliaPart1.jl`
+### 6.2 Neural Network with Julia (Part 1)  →  `06p02NeuralNetworkWithJuliaPart1/` (split by goal — see its README)
 
 **Problem.** Rebuild the workflow from 6.1 using Julia's `Lux.jl` library, which handles the network definition, parameter initialisation, and evaluation for you, then train these Lux networks to fit data.
 
@@ -28,7 +28,7 @@ This final chapter introduces neural networks as flexible, tunable function appr
 4. Add a tanh activation (`Dense(1 => 1, tanh)`), then a hidden-layer network NN(x) = W2*tanh(W1*x + b1) + b2 (a Chain of two Dense layers); fit it to g(x) = 2*sin(pi*x/5) with hand-coded gradient descent.
 5. Retrain the same hidden-layer network with the `Optimization.jl` library (Adam, AutoZygote) instead of hand-coded descent, logging the loss through a callback.
 
-### 6.3 Neural Network with Julia (Part 2)  →  `06p03NeuralNetworkWithJuliaPart2.jl`
+### 6.3 Neural Network with Julia (Part 2)  →  `06p03NeuralNetworkWithJuliaPart2/` (split by goal — see its README)
 
 **Problem.** Build deeper and wider networks with Lux, and study generalisation: split data into training and validation sets, train only on part of it, and test how well the network predicts unseen data - both by interpolation (a random split) and by extrapolation (train on x < x0, predict beyond).
 
