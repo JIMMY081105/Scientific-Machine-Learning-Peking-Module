@@ -1,0 +1,19 @@
+# Julia environment and build artifacts
+.julia/
+*.ji
+*.mem
+
+# Notebook and editor checkpoints
+.ipynb_checkpoints/
+.vscode/
+
+# Generated temporary output
+figures/
+output/
+tmp/
+temp/
+
+# Operating system metadata
+Thumbs.db
+Desktop.ini
+.DS_Store
