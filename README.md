@@ -33,11 +33,11 @@ Core topics include:
 
 ## Visual Overview
 
-| Function behavior | Nonlinear system contours | Circuit sweep |
+| Optimization landscape | Algorithm comparison | Rosenbrock valley |
 | --- | --- | --- |
-| <img src="class%202/classdemo1_output.png" alt="Function plot from class 2" width="290"> | <img src="class%202/day2_check.png" alt="Contour plot for nonlinear system" width="290"> | <img src="class%202/nonlinear_check.png" alt="Current i5 versus source voltage V1" width="290"> |
+| <img src="docs/assets/notebook-output-06.png" alt="Quadratic optimization contour field" width="290"> | <img src="docs/assets/notebook-output-09.png" alt="Optimization trajectories over a contour field" width="290"> | <img src="docs/assets/notebook-output-11.png" alt="Rosenbrock optimization landscape with trajectories" width="290"> |
 
-These figures are generated from the Julia class demos and show the main numerical workflow: define a mathematical model, visualize it, solve or optimize it, and inspect the result.
+These notebook-derived figures give the repository a more scientific visual summary: objective landscapes, contour geometry, and optimizer trajectories for gradient-based methods.
 
 ## Getting Started
 
