@@ -1,0 +1,13 @@
+* text=auto
+
+*.jl text eol=lf
+*.toml text eol=lf
+*.md text eol=lf
+*.csv text eol=lf
+*.ipynb text eol=lf
+
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.svg text eol=lf
