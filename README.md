@@ -31,6 +31,8 @@ Core topics include:
 | [`Homework/`](Homework) | Homework Day 02 handout. |
 | [`JuliaPrograms/`](JuliaPrograms) | Introductory Julia program examples. |
 
+For a study-oriented navigation guide, see [`COURSE_INDEX.md`](COURSE_INDEX.md).
+
 ## Visual Overview
 
 | Optimization landscape | Algorithm comparison | Rosenbrock valley |
@@ -73,6 +75,8 @@ The Julia environment is defined in [`Project.toml`](Project.toml) and [`Manifes
 - `Optim`, `Optimization`, `OptimizationOptimJL`, and `OptimizationOptimisers` for numerical optimization.
 - `ForwardDiff` and `Zygote` for automatic differentiation.
 - `CSV` and `DataFrames` for tabular data workflows.
+
+For environment setup and generated-output notes, see [`REPRODUCIBILITY.md`](REPRODUCIBILITY.md).
 
 ## Notes
 
