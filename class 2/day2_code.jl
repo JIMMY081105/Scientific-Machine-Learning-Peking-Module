@@ -11,7 +11,7 @@ function FunctionStore(x,y)
     return func
 end
 
-#differenciation of the equation
+# derivative matrix of the equation system
 function Jacobian(x,y)
     return [3*x^2 3*y^2;
             2*x   2*y]
@@ -27,7 +27,7 @@ functionToPlot = [FunctionStore(x,y) for x in xrange, y in yrange]
 fig = Figure()
 #label x and y
 ax = Axis(fig[1, 1], xlabel = L"x", ylabel = L"y",
-    #define how big the chatacter would be 
+    # define label sizes
     xlabelsize = 15, 
     ylabelsize = 15,
     #define the limits of the graph
@@ -49,7 +49,7 @@ x=2
 y=-2
 
 
-#loop Newthon-Raphson to solve it
+# loop Newton-Raphson to solve it
 for i=1:10
     J=Jacobian(x,y)
     F=FunctionStore(x,y)
