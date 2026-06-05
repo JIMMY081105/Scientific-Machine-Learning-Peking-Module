@@ -1,6 +1,6 @@
 x = 1
 y = 2.0
-z = "String nigga"
+z = "Julia string example"
 
 struct House
     Country::String
@@ -8,7 +8,7 @@ struct House
     Construction::String
 end
 
-MyHome = House("Inner Mongolia" , 100.0 , "Candy")
+MyHome = House("Inner Mongolia", 100.0, "Candy")
 
 vertical = [1.0, 2.0, 3.0, 4.0, 5.0, 8888.0]
 
