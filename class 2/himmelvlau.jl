@@ -11,12 +11,15 @@ ax = Axis(fig[1, 1],
  ylabel = L"x_2",
  xlabelsize = 20,
  ylabelsize = 20,
- title = "Himelblau function",
+ title = "Himmelblau function",
  limits=(-6,6.0,-6.0,6.0))
 levels = 10.0.^range(0, 3.5; length=10)
 contourf!(ax,x1range,x2range,funcplot; levels,colormap=:bwr)
 contour!(ax,x1range,x2range,funcplot; levels,label=true,color=:black)
-save("../figures/01p03PlottingFunctionsInJulia02.svg", fig) #save figure
 scatter!(ax,-0.270845,-0.923039;markersize=20,color=:magenta)
 scatter!(ax,3.0,2.0,markersize=20,color=:grey)
 scatter!(ax,-2.805118,3.13132,markersize=20,color=:grey)
+
+output_path = joinpath("docs", "assets", "himmelblau-contours.svg")
+mkpath(dirname(output_path))
+save(output_path, fig)
