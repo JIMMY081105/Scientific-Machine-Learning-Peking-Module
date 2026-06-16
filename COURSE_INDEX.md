@@ -8,8 +8,10 @@ This index groups the repository material by study activity so the lecture PDFs,
 - `Chapter02/` covers optimization foundations, gradient-based methods, multivariate examples, and second-order methods.
 - `Chapter03/` covers linear least-squares methods using gradient descent and normal equations.
 - `Chapter04/` covers differentiation in Julia and forward-mode automatic differentiation.
+- `Chapter05/` covers boundary value problems, nonlinear BVPs, and parameter estimation for BVPs.
+- `Chapter06/` covers neural networks and their implementation in Julia.
 
-Each chapter separates its material into `Jupyter Notebooks/`, `PDFs/`, and `Julia/`. The `Julia/` directories include complete notebook-derived scripts as well as smaller standalone examples.
+Each chapter separates its material into `Jupyter Notebooks/`, `PDFs/`, `Julia lecture/` (complete notebook-derived scripts), and `Julia/` (smaller standalone examples). Chapters that use datasets keep the `DataXX.csv` files at the chapter root, referenced from scripts and notebooks via relative paths.
 
 ## Class Work
 
