@@ -45,12 +45,37 @@ These notebook-derived figures give the repository a more scientific visual summ
 
 ## Getting Started
 
-Install Julia, then instantiate the project environment from the repository root:
+Install the local tools first:
+
+- [Julia](https://julialang.org/install/) for running scripts and notebooks.
+- [Visual Studio Code](https://code.visualstudio.com/download) with the [Julia extension](https://code.visualstudio.com/docs/languages/julia), which provides the integrated REPL, plot pane, code completion, debugging, and Julia workspace tools.
+- The [Jupyter extension for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) for `.ipynb` notebook editing and execution. The extension also installs its common notebook helper extensions, including Jupyter Keymap, Notebook Renderers, Cell Tags, and Slide Show support.
+
+Install the recommended VS Code extensions from PowerShell:
+
+```powershell
+code --install-extension julialang.language-julia
+code --install-extension ms-toolsai.jupyter
+```
+
+Download the Julia packages for the repository environment from the repository root:
+
+```powershell
+julia --project=. -e "using Pkg; Pkg.instantiate()"
+```
+
+The same setup can also be run from the Julia REPL:
 
 ```julia
 using Pkg
 Pkg.activate(".")
 Pkg.instantiate()
+```
+
+The `class 2/` folder has its own Julia environment snapshot. Instantiate it separately when running those examples:
+
+```powershell
+julia --project="class 2" -e "using Pkg; Pkg.instantiate()"
 ```
 
 Run selected scripts from PowerShell:
