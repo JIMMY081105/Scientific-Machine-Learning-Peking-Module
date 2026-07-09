@@ -17,18 +17,20 @@ Core topics include:
 - Plotting and numerical visualization with CairoMakie and Plots.
 - Linear systems, nonlinear equations, Newton-Raphson iterations, and contour analysis.
 - Optimization workflows, including gradient-based and second-order methods.
+- Linear least-squares modeling with gradient descent and normal equations.
 - Coursework artifacts, homework notebooks, CSV data, and lecture PDFs.
 
 ## Repository Structure
 
 | Path | Contents |
 | --- | --- |
-| [`Chapter01/`](Chapter01) | Introduction, Julia basics, plotting, and equation-solving lecture PDFs and slides. |
-| [`Chapter02/`](Chapter02) | Optimization lectures, slides, gradient-based methods, multivariate examples, and second-order methods. |
+| [`Chapter01/`](Chapter01) | Introduction, Julia basics, plotting, and equation-solving lectures, notebooks, scripts, and slides. |
+| [`Chapter02/`](Chapter02) | Optimization lectures, notebooks, scripts, slides, gradient-based methods, multivariate examples, and second-order methods. |
+| [`Chapter03/`](Chapter03) | Linear least-squares notebooks, lecture PDFs, and slides for gradient descent and normal equations. |
 | [`class 2/`](class%202) | Julia class demos for linear systems, nonlinear solving, plotting, homework, and generated PNG outputs. |
 | [`class 3/`](class%203) | Optimization notebook and Julia demos for gradient descent and momentum-style methods. |
 | [`Assignment 1/`](Assignment%201) | Assignment PDF and `Q3Data.csv`. |
-| [`Homework/`](Homework) | Homework Day 02 handout. |
+| [`Homework/`](Homework) | Homework Day 02, Day 03, and Days 4-5 handouts, plus one-dimensional optimization code and figures. |
 | [`JuliaPrograms/`](JuliaPrograms) | Introductory Julia program examples. |
 
 For a study-oriented navigation guide, see [`COURSE_INDEX.md`](COURSE_INDEX.md).
@@ -62,8 +64,8 @@ julia "class 3\classdemo3.jl"
 Open notebooks directly in VS Code, Jupyter, or another Julia-compatible notebook environment:
 
 ```text
-class 2/day2_homework.ipynb
-class 3/02p01BasicOptimizationInJulia.ipynb
+Chapter02/02p01BasicOptimizationInJulia.ipynb
+Chapter03/03p02LinearLeastSquaresNormalEquations.ipynb
 ```
 
 ## Main Dependencies
