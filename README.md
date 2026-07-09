@@ -37,7 +37,7 @@ For a study-oriented navigation guide, see [`COURSE_INDEX.md`](COURSE_INDEX.md).
 
 | Optimization landscape | Algorithm comparison | Rosenbrock valley |
 | --- | --- | --- |
-| <img src="docs/assets/notebook-output-06.png" alt="Quadratic optimization contour field" width="290"> | <img src="docs/assets/notebook-output-09.png" alt="Optimization trajectories over a contour field" width="290"> | <img src="docs/assets/notebook-output-11.png" alt="Rosenbrock optimization landscape with trajectories" width="290"> |
+| <img src="https://raw.githubusercontent.com/JIMMY081105/Scientific-Machine-Learning-Peking-Module/main/docs/assets/notebook-output-06.png" alt="Quadratic optimization contour field" width="290"> | <img src="https://raw.githubusercontent.com/JIMMY081105/Scientific-Machine-Learning-Peking-Module/main/docs/assets/notebook-output-09.png" alt="Optimization trajectories over a contour field" width="290"> | <img src="https://raw.githubusercontent.com/JIMMY081105/Scientific-Machine-Learning-Peking-Module/main/docs/assets/notebook-output-11.png" alt="Rosenbrock optimization landscape with trajectories" width="290"> |
 
 These notebook-derived figures give the repository a more scientific visual summary: objective landscapes, contour geometry, and optimizer trajectories for gradient-based methods.
 
