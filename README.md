@@ -28,14 +28,16 @@ Core topics include:
 | [`Chapter01/`](Chapter01) | Introduction, Julia basics, plotting, and equation-solving materials organized into `Jupyter Notebooks`, `PDFs`, and `Julia`. |
 | [`Chapter02/`](Chapter02) | Optimization materials organized into `Jupyter Notebooks`, `PDFs`, and `Julia`, including gradient-based and second-order methods. |
 | [`Chapter03/`](Chapter03) | Linear least-squares materials organized into `Jupyter Notebooks`, `PDFs`, and `Julia`. |
-| [`Chapter04/`](Chapter04) | Differentiation and forward-mode automatic differentiation materials organized into `Jupyter Notebooks`, `PDFs`, and `Julia`. |
-| [`class 2/`](class%202) | Julia class demos for linear systems, nonlinear solving, plotting, homework, and generated PNG outputs. |
-| [`class 3/`](class%203) | Optimization notebook and Julia demos for gradient descent and momentum-style methods. |
-| [`Assignment 1/`](Assignment%201) | Assignment PDF and `Q3Data.csv`. |
-| [`Homework/`](Homework) | Homework Day 02, Day 03, and Days 4-5 handouts, plus one-dimensional optimization code and figures. |
+| [`Chapter04/`](Chapter04) | Differentiation, forward-mode automatic differentiation, and parameter estimation materials organized into `Jupyter Notebooks`, `PDFs`, and `Julia`. |
+| [`Chapter05/`](Chapter05) | Boundary value problem materials (finite differences, nonlinear BVPs, inverse/parameter-estimation problems) organized into `Jupyter Notebooks`, `PDFs`, and `Julia`. |
+| [`Chapter06/`](Chapter06) | Neural network materials, from a hand-built single neuron up to Lux-based multivariate networks and NN+physics models, organized into `Jupyter Notebooks`, `PDFs`, and `Julia`. |
+| [`class 2/`](class%202) / [`class 3/`](class%203) | Raw in-class live-coding demos (linear/nonlinear solving, plotting, gradient descent/momentum) that led up to the Day02/Day03 homework; mostly superseded by the polished `Chapter01`/`Chapter02` material. |
+| [`Assignment 1/`](Assignment%201), [`Assignment 2/`](Assignment%202) | Assignment PDFs, solution scripts, and supporting CSV data. |
+| [`Homework/`](Homework) | One subfolder per class day (`Day02` … `Day12`), each with its handout PDF (where checked in) plus the matching solution script/notebook and data/figures. |
+| [`Archive/`](Archive) | Superseded/incomplete scratch scripts kept for reference. |
 | [`JuliaPrograms/`](JuliaPrograms) | Introductory Julia program examples. |
 
-For a study-oriented navigation guide, see [`COURSE_INDEX.md`](COURSE_INDEX.md).
+For a study-oriented navigation guide, see [`COURSE_INDEX.md`](COURSE_INDEX.md). For an exam-prep index organized by problem type (which file to crib from, and what to change if the question differs), see [`PROBLEM_INDEX.md`](PROBLEM_INDEX.md).
 
 ## Visual Overview
 
